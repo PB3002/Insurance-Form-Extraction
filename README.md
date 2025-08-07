@@ -1,5 +1,18 @@
-# Insurance Form OCR Extraction Demo
-
+<h1 align="center">Insurance Form OCR Extraction Demo</h1>
+<p align="center">
+  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FPB3002%2FInsurance-Form-Extraction"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FPB3002%2FInsurance-Form-Extraction&countColor=%232ccce4" /></a>
+  
+  <a href="https://www.linkedin.com/in/nguyenphuc-mrp/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a>
+    
+  <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHvbQxNwkWrmstDrLfwbmwrCXwrRXtjZqKfkwSpmdJSzBKjlwQhJDNbRZvgskkCpXjnPgKq">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  
+  <br>
+  <img src="https://img.shields.io/badge/Typescript-FFD43B?style=for-the-badge&logo=Typescript&logoColor=blue" />
+  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+</p>
 This project is a functional web-based demo designed to showcase the power of client-side AI in streamlining document processing. It allows users to upload an insurance claim form (in PDF or Image format) and automatically extracts key handwritten information, presenting it in a structured format.
 
 The entire process runs directly in the user's browser, ensuring data privacy and requiring no backend infrastructure or API keys.
@@ -69,3 +82,4 @@ The core logic of the application is contained within two main files:
 
 -   `src/OcrDemo.tsx`: The main component that handles UI, state management, file uploads, and the overall processing pipeline (calling PDF.js and Tesseract.js).
 -   `src/ResultsDisplay.tsx`: A dedicated component for displaying results. It contains the crucial data parsing logic (`parseFixedFormData` function) that transforms raw text into structured key-value pairs.
+
