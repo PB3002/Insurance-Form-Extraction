@@ -56,12 +56,12 @@ Follow these instructions to set up and run the project locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://your-repository-url.git
+    git clone https://github.com/PB3002/Insurance-Form-Extraction
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd your-project-name
+    cd Insurance-Form-Extraction
     ```
 
 3.  **Install the dependencies:**
@@ -82,4 +82,5 @@ The core logic of the application is contained within two main files:
 
 -   `src/OcrDemo.tsx`: The main component that handles UI, state management, file uploads, and the overall processing pipeline (calling PDF.js and Tesseract.js).
 -   `src/ResultsDisplay.tsx`: A dedicated component for displaying results. It contains the crucial data parsing logic (`parseFixedFormData` function) that transforms raw text into structured key-value pairs.
+
 
